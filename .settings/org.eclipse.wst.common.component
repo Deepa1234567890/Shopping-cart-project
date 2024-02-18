@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+            
+    
+    <wb-module deploy-name="shopping_cart-0.0.1-SNAPSHOT">
+                
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="hibernate_pesm7_user-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hibernate_pesm7_user/hibernate_pesm7_user">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                        
+        
+        <property name="context-root" value="shopping_cart"/>
+                        
+        
+        <property name="java-output-path" value="/shopping_cart/build/classes"/>
+                    
+    
+    </wb-module>
+        
+
+</project-modules>
